@@ -14,6 +14,9 @@ The main purpose of this computer vision project is to detect vehicles on a traf
 
 This project utilizes the **Rouen Dataset** from the Urban Tracker project page. This dataset was selected for testing as it provides realistic urban traffic video footage suitable for vehicle detection and tracking tasks. For vehicle detection, a **pre-trained YOLOv11 model** was employed, leveraging its existing training on various vehicle types.
 
+### Dataset Cite
+Jodoin, J.-P., Bilodeau, G.-A., Saunier, N., Urban Tracker: Multiple Object Tracking in Urban Mixed Traffic, Accepted for IEEE Winter conference on Applications of Computer Vision (WACV14), Steamboat Springs, Colorado, USA, March 24-26, 2014
+
 ## Vehicle Detection
 
 For the initial step of identifying vehicles within each video frame, a **pre-trained YOLOv11 model** was employed. This model was chosen for its efficiency and effectiveness in object detection. The model was configured to detect specific vehicle classes relevant to the project, including cars (COCO class ID 2), motorcycles (COCO class ID 3), buses (COCO class ID 5), trucks (COCO class ID 7), and bicycles (COCO class ID 1).
