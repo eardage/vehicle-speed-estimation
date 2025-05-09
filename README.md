@@ -69,4 +69,4 @@ Despite these challenges, the project successfully implemented a pipeline for ve
 
 Upon running the project, the output is a processed video stream of the traffic recording. The video displays the detected vehicles with their bounding boxes and unique tracking IDs. For each tracked vehicle, the estimated speed (in km/h) and its corresponding class name are overlaid onto the video frame.
 
-**(Optional but Recommended):** Include a link to a short demo video showcasing the project's output (e.g., a YouTube link or an embedded GIF). Alternatively, include a few screenshots of the processed video frames demonstrating the detection, tracking, and speed display.
+![Vehicle Speed Estimation Demo](output.gif)
