@@ -108,3 +108,12 @@ To run this project, follow these steps:
     ```
 
 The processed video with vehicle detections, tracks, and speed estimations will be saved as `output.mp4` (or the specified output path).
+
+
+
+## Contact
+
+You can reach out to me via:
+
+* **GitHub:** https://github.com/eardage
+* **LinkedIn:** https://www.linkedin.com/in/egeardaozturk/
