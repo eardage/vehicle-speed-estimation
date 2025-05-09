@@ -70,3 +70,41 @@ Despite these challenges, the project successfully implemented a pipeline for ve
 Upon running the project, the output is a processed video stream of the traffic recording. The video displays the detected vehicles with their bounding boxes and unique tracking IDs. For each tracked vehicle, the estimated speed (in km/h) and its corresponding class name are overlaid onto the video frame.
 
 ![Vehicle Speed Estimation Demo](output.gif)
+
+
+## How to Run
+
+To run this project, follow these steps:
+
+1.  Clone the repository:
+    ```bash
+    git clone [Your Repository URL]
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd [Your Project Folder Name]
+    ```
+3.  (Optional) Create a virtual environment (recommended for managing dependencies):
+    ```bash
+    python -m venv venv
+    ```
+4.  Activate the virtual environment:
+    * **macOS and Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+    * **Windows:**
+        ```bash
+        venv\Scripts\activate
+        ```
+5.  Install the required libraries using the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+6.  Place the video file you want to analyze (e.g., the Rouen video) in a specified location and update the `video_path` variable in the `main` function of `speed_estimation_pipeline.py` accordingly.
+7.  Run the main script:
+    ```bash
+    python speed_estimation_pipeline.py
+    ```
+
+The processed video with vehicle detections, tracks, and speed estimations will be saved as `output.mp4` (or the specified output path).
