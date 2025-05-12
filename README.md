@@ -1,5 +1,5 @@
 # vehicle-speed-estimation
-This project aims to detect and track vehicles on traffic recordings, then estimate the speed of the vehicles.
+This project aims to detect and track vehicles on traffic recordings, then estimate the speed of the vehicles. It's designed as an Image Process Pipeline.
 
 
 
